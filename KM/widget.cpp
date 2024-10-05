@@ -23,6 +23,8 @@ void Widget::on_qt_clicked()
     if(ret < 0)
         return;
     system("cat /mnt/jffs2/CardHolder.xml");
+    qDebug() << "I have edited the code for my understanding......";
+    qDebug() << "---------------..............--------------";
 
 
 }
